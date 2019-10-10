@@ -20,11 +20,6 @@ body {
     height: auto;
 }
 @media screen and (max-width: 928px) {
-    .intern-meet {
-        width: 250px;
-    }
-}
-@media screen and (max-width: 928px) {
     .section-2 {
         display: block;
     }
@@ -100,5 +95,11 @@ tr {
 }
 .intern-meet {
     width: 450px;
+}
+
+@media screen and (max-width: 928px) {
+    .intern-meet {
+        width: 300px;
+    }
 }
 
