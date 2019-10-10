@@ -1,0 +1,122 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: o;
+    background: #F4F5F7;
+}
+h3  {
+    color: #333333;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    line-height: 33px;
+}
+#skill-set {
+        color: #333333;
+        text-align: center;
+        margin: 9px;  
+}
+#preferred {
+    font-weight: 600;
+}
+.container {
+    position: relative;
+    width: 1200px;
+    padding-left: 70px;
+    background: #ffffff;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-right: 40px;
+    height: 300px;
+}
+img {
+    float: ;
+    background: #FFFFFF;
+    background-size: cover;
+    padding-left: 30px;   
+}
+input[type="checkbox"] {
+    position: relative;
+    display:block; 
+    top: 20px; 
+    background: #FFFFFF;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin: o auto;
+}
+@media only screen and (max-width:767px){
+    input[type="checkbox"] {
+
+    }
+}
+
+label {
+    margin: 10px;
+
+}
+.check-box {
+    padding-left: 40px;
+    background: #ffffff;
+    color: #525F7F;
+}
+
+
+.signup-section {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 120px;
+    max-width: 1110px;
+    margin: 0 auto;
+    position: absolute;
+}
+.signup-form-name {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0px;
+    background: #FFFFFF;
+    color: #ADB5BD;
+    padding: 20px 70px; /* for shifting the placeholder*/
+    height: 46px;
+    outline: none;
+    transition: 0.5s;
+    
+}
+.signup-form-name:focus {
+    box-shadow: 0 0 1px 1px #00AEFF;
+}
+.signup-form-btn {
+    border: 0;
+    position: relative;
+}
+#name {
+    background-image: l("https://res.cloudinary.com/chux/image/upload/v1570565332/person-24px_yajtwd.svg");
+    background-repeat: no-repeat;
+    position: left;
+    padding-right: 10px;
+    margin-top: 5px;    
+}
+
+input[type="file"] {
+    box-sizing: border-box;
+    height: 80px;
+    margin-top: 30px;
+    width: 200px;
+    
+}
+
+.icon1 input[type="text"] {
+    padding-right: 5px;
+}
+.icon1 {
+    position: relative;
+}
+.icon1 img {
+    position: absolute;
+    top: 8px;
+}
+.profile-picture {
+    margin-top: 60px;
+    display: none
+}
